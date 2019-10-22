@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobike</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- 引入重自样式表 -->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <!-- 引入swiper插件自带的样式文件 -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/mb.css">  
+    <style>
+        .swiper-slide img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mobai">
+        <!-- 轮播图 -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- <div class="swiper-slide"><img src="images/img.jpg" alt=""></div> -->
+                <div class="swiper-slide"><img src="images/img5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/img6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/img7.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/img9.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/img10.jpg" alt=""></div>
+            </div>
+            <div class="global-navigation">
+                <div class="logo-links">
+                    <p class="logo-links-p fl">mobike</p>
+                    <ul class="logo-links-ul ">
+                        <li>摩</li>
+                        <li>拜</li>
+                        <li>单</li>
+                        <li>车</li>
+                    </ul>
+                    <ul class="nav-links">
+                        <li><a href="">产品</a> </li>
+                        <li><a href="">摩拜科技</a></li>
+                        <li><a href="">关于</a></li>
+                        <li><a href="">广告合作</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ziran">
+                <ul class="ziran-ul">
+                    <li class="ziran-li1">让自行车回归城市</li>
+                    <li class="ziran-li2"><a href="">立即开始使用<span>Mobike</span></a></li>
+                </ul>
+            </div>
+            <!-- 滚动条 -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="clear"></div>
+        <!-- swiper插件自带的js脚本文件 -->
+        <script src="js/swiper.min.js"></script>
+        <script>
+            var mySwiper = new Swiper('.swiper-container', {
+                //   direction: 'vertical', // 垂直切换选项
+                loop: true, // 循环模式选项
+                autoplay: true
+            })        
+        </script>
+        <div class="clear"></div>
+        <div class="mb-index">
+            <div class="hero-promos">
+                <a href="" class="hero-promos-img1" style="background-image: url(images/promo-01.jpg)">
+                    <h3>大国品牌</h3>
+                </a>
+                <a href="" class="hero-promos-img2" style="background-image: url(images/promo-02.jpg)">
+                    <h3>膜拜科技</h3>
+                </a>
+                <a href="" class="hero-promos-img3" style="background-image: url(images/promo-03.jpg)">
+                    <h3>膜拜生活</h3>
+                </a>
+                <a href="" class="hero-promos-img4" style="background-image: url(images/promo-04.jpg)">
+                    <h3>膜拜校招</h3>
+                </a>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="zhong clearfix">
+            <div class="meta-links clearfix">
+                <div class=" meta-link1 fl">
+                    <div class="meta-link-div fl"><img src="images/img11.png" alt=""></div>
+                    <div class="meta-link-text">
+                        <h4>微信小程序</h4>
+                        <p>微信扫一扫，直接用车</p>
+                    </div>
+                </div>
+                <div class=" meta-link2 fl clearfix">
+                    <div class="meta-link-div meta-link2-div"><img src="images/img12.png" alt=""></div>
+                    <div class="meta-link-text meta-link-text2">
+                        <h4>红包车</h4>
+                        <p>骑摩拜，能赚钱</p>
+                    </div>
+                </div>
+                <div class="meta-link3 ">
+                    <div class="meta-link-text3 meta-link-text">
+                        <h4>摩范分</h4>
+                        <p>文明骑行，信用生活</p>
+                    </div>
+                    <div class="meta-link-div " style="float: right;"><img src="images/img13.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="relative">
+            <div class="container-md">
+                <lu class="container-mdul fl">
+                    <li class="mduili"> <a href="" class="font-logo"
+                            style="background-image: url(https://mobike.com/cn/assets/themes/moby/img/logo-text.svg);"></a>
+                    </li>
+                    <li>Beijing Mobike Technology Co., Ltd</li>
+                    <li>客服电话 <a href="">400-618-7799</a></li>
+                    <li>北京摩拜科技有限公司</li>
+                </lu>
+                <div class="footer-list-wrap">
+                    <div class="footer-list footer-list-products fl">
+                        <h3>产品</h3>
+                        <ul>
+                            <li>经典版</li>
+                            <li>轻骑</li>
+                            <li>智能锁</li>
+                        </ul>
+                    </div>
+                    <div class="footer-list footer-list-life fl">
+                        <h3>生活</h3>
+                        <ul>
+                            <li>城市</li>
+                        </ul>
+                    </div>
+                    <div class="footer-list footer-list-about fl">
+                        <h3>关于</h3>
+                        <ul>
+                            <li>关于Mobike</li>
+                            <li>加入我们们</li>
+                            <li>联系我们</li>
+                            <li>服务协议</li>
+                        </ul>
+                    </div>
+                    <div class="footer-list footer-list-social-networks fl">
+                        <h3>社交网络</h3>
+                        <ul>
+                            <li>微博</li>
+                            <li>微信</li>
+                            <li>知乎专栏</li>
+                            <li>Facebook</li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer-miscs">
+            <div class="container-md">
+                <div class="footer">
+                    <ul class="main-links fl">
+                        <li>京 ICP 备15053449 号 <span style="background-image: url(images/img16.png);"></span> 京公网安备
+                            11010502032956 号</li>
+                        <li> 增值电信业务经营许可证编号：京B2-20170053</li>
+                    </ul>
+                    <div class="footer-badges">
+                        <img src="images/img14.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

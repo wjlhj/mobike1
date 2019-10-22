@@ -1,0 +1,310 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero-promos a {
+    float: left;
+    width: 25%;
+    height: 260px;
+    /* x和y轴居中 */
+    background-position: center center;
+    /* 把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。 */
+    background-size: cover;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+}
+
+.hero-promos {
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+.hero-promos h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.global-navigation {
+    font-weight: 400;
+    width: 1080px;
+    position: absolute;
+    z-index: 99;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    top: 20px;
+    /* margin: 0 auto; */
+    left: 2;
+    left: 430px;
+}
+
+.mobai {
+    width: 100%;
+    overflow: hidden;
+}
+
+.relative {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #999999;
+    background: #fff;
+}
+
+.fl {
+    float: left;
+}
+
+.meta-link1, .meta-link2, .meta-link3 {
+    width: 350px;
+    padding: 45px 0px;
+}
+
+/* .meta-link1 {
+    float: left;
+}
+
+.meta-link2 {}
+
+.meta-link3 {
+    float: right;
+} */
+
+.fl2 {
+    float: right;
+}
+
+.meta-links {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.meta-link-div img {
+    width: 50px;
+    height: 50px;
+}
+
+.meta-link-text h4 {
+    font-size: 15px;
+}
+
+.meta-link-text p {
+    font-size: 15px;
+}
+
+.meta-link-div {
+    margin-right: 10px;
+}
+
+.meta-link2 {
+    position: relative;
+    height: 40px;
+}
+
+.meta-link2-div {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(0, -50%);
+}
+
+.meta-link-text2 {
+    float: left;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+}
+
+.meta-link3 {
+    float: right;
+}
+
+.meta-link-text3 {
+    float: right;
+}
+
+.meta-link-text {
+    line-height: 26px
+}
+
+.clear {
+    clear: both;
+}
+
+.zhong {
+    width: 100%;
+    border-bottom: 1px solid #999999;
+}
+
+.relative {
+    background: #fff;
+}
+
+.container-md {
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.font-logo {
+    display: block;
+    width: 160px;
+    height: 61px;
+    text-indent: -99999px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.mduili {
+    margin-bottom: 41px;
+    overflow: hidden;
+}
+
+.container-mdul li {
+    font-size: 16px;
+    font-weight: 300;
+    height: 36px;
+    list-style-type: none;
+}
+
+.footer-list h3 {
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.container-mdul {
+    margin-right: 40px;
+    /* margin: 0px 20px; */
+    width: 307px;
+}
+
+.footer-list li {
+    line-height: 2;
+    font-size: 16px;
+}
+
+.footer-list-life {
+    margin-left: 12%;
+}
+
+.footer-list-about {
+    margin-left: 12%;
+}
+
+.footer-list-social-networks {
+    margin-left: 12%;
+}
+
+.footer-badges img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-badges {
+    float: right;
+}
+
+.main-links span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: -3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main-links {
+    font-size: 12px;
+    margin-top: 4px;
+    color: #aaa;
+}
+
+.main-links li:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    float: right;
+}
+
+.logo-links-ul li {
+    float: left;
+    padding: 0px 5px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.nav-links li {
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 8px 20px;
+}
+.nav-links a{
+    color: #ffffff;
+}
+.logo-links-p {
+    font-size: 27px;
+    font-family: initial;
+    position: absolute;
+    line-height: 7px;
+    color: #ffffff;
+}
+
+.logo-links-ul {
+    position: relative;
+    top: 23px;
+}
+
+.ziran {
+    font-weight: 400;
+    width: 500px;
+    position: absolute;
+    z-index: 99;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    /* top: 20px; */
+    /* margin: 0 auto; */
+    /* bottom: 500px; */
+    bottom: 50%;
+    top: 50%;
+    left: 435px;
+}
+
+.ziran-li1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.ziran-li2 {
+    font-size: 23px;
+    background: #000;
+    width: 255px;
+    /* padding: 7px; */
+    padding: 10px 16px;
+    border-radius: 10%;
+    border-radius: 10px 10px;
+}
+
+.ziran-li2 a {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.ziran-li2 span {
+    margin-left: 10px;
+}
